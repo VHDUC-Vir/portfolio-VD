@@ -6,7 +6,7 @@ import Head from 'next/head';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'VU HONG DUC - エンジニアポートフォリオ',
+  title: 'VD - エンジニアポートフォリオ',
   description: 'VU HONG DUCのエンジニアポートフォリオサイト。Java、Spring Framework、AWS等の開発経験とスキルを紹介。',
   keywords: 'エンジニア, ポートフォリオ, Java, Spring, AWS, フルスタック, VU HONG DUC',
 };

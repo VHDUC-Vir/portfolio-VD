@@ -13,7 +13,7 @@ export function Navigation() {
     { name: 'スキル', href: '#skills', icon: <Code size={16} /> },
     { name: '取得資格', href: '#certifications', icon: <Award size={16} /> },
     { name: '業務経験', href: '#work-experience', icon: <Briefcase size={16} /> },
-    { name: 'お問い合わせ', href: '#contact', icon: <Mail size={16} /> },
+    // { name: 'お問い合わせ', href: '#contact', icon: <Mail size={16} /> },
   ];
 
   const scrollToSection = (href: string) => {
@@ -36,7 +36,7 @@ export function Navigation() {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             <div className="text-xl font-bold text-white">
-              VU HONG DUC
+              {/* VU HONG DUC */}VD
             </div>
             
             {/*デスクトップのメニュー*/}

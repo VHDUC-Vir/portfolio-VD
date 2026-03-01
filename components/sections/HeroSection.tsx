@@ -49,7 +49,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-5xl md:text-7xl font-bold mb-6 gradient-text"
           >
-            VU HONG DUC
+            {/* VU HONG DUC */}
           </motion.h1>
 
           <motion.p
@@ -58,7 +58,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl md:text-2xl text-gray-300 mb-4"
           >
-            ヴー　ホン　ドゥック
+            {/* ヴー　ホン　ドゥック */}
           </motion.p>
 
           <motion.p
@@ -87,7 +87,7 @@ export function HeroSection() {
             </Button>
           </motion.div> */}
 
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 1 }}
@@ -102,7 +102,7 @@ export function HeroSection() {
             <a href="#" className="text-gray-400 hover:text-white transition-colors">
               <Mail size={24} />
             </a>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </section>

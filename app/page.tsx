@@ -23,9 +23,9 @@ export default function Home() {
       <section id="work-experience">
         <WorkExperienceSection />
       </section>
-      <section id="contact">
+      {/* <section id="contact">
         <ContactSection />
-      </section>
+      </section> */}
     </main>
   );
 }

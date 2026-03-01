@@ -8,7 +8,7 @@ import { Calendar, MapPin, Briefcase, Users } from 'lucide-react';
 export function WorkExperienceSection() {
   const workExperiences = [
     {
-      period: '2024年7月 - 2025年7月',
+      period: '2024年9月 - 2025年9月',
       title: 'AWS',
       company: 'AWS開発システムの開発・保守・運用',
       teamSize : '12名',
@@ -23,7 +23,7 @@ export function WorkExperienceSection() {
       projectType: '保守・運用',
     },
     {
-      period: '2024年4月 - 2024年7月',
+      period: '2024年4月 - 2024年8月',
       title: '開発',
       company: '受託案件',
       teamSize : '7名',

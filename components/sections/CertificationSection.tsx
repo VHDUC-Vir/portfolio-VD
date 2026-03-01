@@ -56,6 +56,13 @@ export function CertificationSection() {
       description: 'ITエンジニアとしての基本的な知識・技能を証明する国家試験',
       category: 'IT',
     },
+       {
+      name: 'AWS Certified Solutions Architect',
+      date: '2025-08-29',
+      organization: 'Amazon Web Services',
+      description: '幅広いAWS サービスに関する技術的な知識とスキルを認定認定資格',
+      category: 'クラウド',
+    }
   ];
 
   const categoryColors = {
@@ -126,7 +133,7 @@ export function CertificationSection() {
           className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6"
         >
           <div className="text-center">
-            <div className="text-3xl font-bold text-blue-400 mb-2">7</div>
+            <div className="text-3xl font-bold text-blue-400 mb-2">8</div>
             <div className="text-gray-400">総取得資格数</div>
           </div>
           <div className="text-center">
@@ -134,7 +141,7 @@ export function CertificationSection() {
             <div className="text-gray-400">カテゴリー数</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-purple-400 mb-2">2024</div>
+            <div className="text-3xl font-bold text-purple-400 mb-2">2025</div>
             <div className="text-gray-400">最新取得年</div>
           </div>
           <div className="text-center">
