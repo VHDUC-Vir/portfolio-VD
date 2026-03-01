@@ -18,9 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <head>
+      {/* <head>
         <link rel="stylesheet" href="./portfolio.css" />
-      </head>
+      </head> */}
       <body className={inter.className}>
         {children}
       </body>
