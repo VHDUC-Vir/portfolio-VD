@@ -1,6 +1,7 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/portfolio-VD',
+  basePath: '/portfolio-VD', 
   assetPrefix: '/portfolio-VD/',
   eslint: {
     ignoreDuringBuilds: true,
@@ -8,3 +9,4 @@ const nextConfig = {
   images: { unoptimized: true },
 };
 
+module.exports = nextConfig;
